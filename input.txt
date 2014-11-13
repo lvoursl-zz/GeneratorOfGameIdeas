@@ -1,0 +1,4 @@
+/* 
+   here you should write a sequence of 2 numbers 
+   example: 4 7 
+*/

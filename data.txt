@@ -1,0 +1,3 @@
+genre: casual, action, adventure, role-playing, strategy, sports, racing, fighting, shooter
+hero: human, figure, animal, thing
+
