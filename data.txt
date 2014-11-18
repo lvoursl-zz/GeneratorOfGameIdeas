@@ -1,3 +1,5 @@
-genre: casual, action, adventure, role-playing, strategy, sports, racing, fighting, shooter
-hero: human, figure, animal, thing
+genre: casual, action, adventure, role-playing, strategy, sports, racing, fighting, shooter, arcade, musical
+hero: human, figure, animal, thing, God, letter, bucket, cheese
+landscape: space, star, forest, cosmos, dune, land, house, body, moon, sun, wall-street
+
 
