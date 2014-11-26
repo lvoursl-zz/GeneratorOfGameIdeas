@@ -42,7 +42,7 @@ int main(int argc, char const *argv[]) {
                 input >> inputNumbersArray[w][h];
                // output << inputNumbersArray[w][h];
                 w++;
-                if (w == 3) {
+                if (w == vertical) {
                     output << endl;
                     w = 0;
                     h++;
@@ -78,7 +78,7 @@ int main(int argc, char const *argv[]) {
                 if (counter == inputNumbersArray[w][h]) {
                     output << s << " ";
                     w++;
-                    if (w == 3) {
+                    if (w == vertical) {
                         w = 0;
                         h++;
                         output << endl;
