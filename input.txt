@@ -1,3 +1,5 @@
+/* example of input << delete this, if you want to use */
+
 5 2 7
 3 4 5
 1 2 3

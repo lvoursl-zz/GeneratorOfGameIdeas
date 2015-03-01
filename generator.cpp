@@ -20,7 +20,6 @@ int main(int argc, char const *argv[]) {
             input >> foo;
             length++;
         }
-        delete &foo;
     }
 
     length -= 1;
@@ -40,7 +39,6 @@ int main(int argc, char const *argv[]) {
             int h = 0;
             while (!input.eof()) {
                 input >> inputNumbersArray[w][h];
-               // output << inputNumbersArray[w][h];
                 w++;
                 if (w == vertical) {
                     output << endl;
@@ -49,8 +47,6 @@ int main(int argc, char const *argv[]) {
                     if (h == horizontal) break;
                 }
             }
-            delete &w;
-            delete &h;
         }
 
         input.close();
@@ -89,10 +85,6 @@ int main(int argc, char const *argv[]) {
                     counter = -1000; // hack :]
                 }
             }
-            delete &w;
-            delete &h;
-            delete &counter;
-            delete &s;
         }
     }
 
